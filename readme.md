@@ -2,7 +2,7 @@
 
 This repository contains a machine learning system capable of classifying 
 histopathology images of cancerous cells based on the modified 
-"CRCHistoPhenotypes" dataset.
+["CRCHistoPhenotypes" dataset](https://warwick.ac.uk/fac/cross_fac/tia/data/crchistolabelednucleihe ).
 
 ## Project Overview
 
@@ -45,5 +45,5 @@ The achieved metrics for the multi-class classification model are:
 
 To explore the potential of the additional data, we investigated its use 
 for improving the cell-type classification model. We explored a 
-semi-supervised learning method, **FixMatch**. This approach makes use of 
+semi-supervised learning method, [**FixMatch**](https://github.com/google-research/fixmatch). This approach makes use of 
 labeled and unlabeled data to enhance the classification performance.
